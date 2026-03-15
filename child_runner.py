@@ -87,3 +87,4 @@ def is_bot_running(bot_token: str) -> bool:
 
 def get_running_count() -> int:
     return len(running_bots)
+    

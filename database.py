@@ -275,3 +275,4 @@ def reply_ticket(tid, reply_text):
     if tid in _tickets:
         _tickets[tid]['reply']  = reply_text
         _tickets[tid]['status'] = 'closed'
+    
